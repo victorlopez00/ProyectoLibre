@@ -1,0 +1,18 @@
+h1{
+    color:white;
+}
+body{
+    background-image: url("b.jpg");
+    color: white;
+}
+
+
+.submit{
+	color:white;
+	background-color:black;
+}
+.volver{
+	color:white;
+	background-color:black;
+}
+

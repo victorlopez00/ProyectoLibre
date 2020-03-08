@@ -1,0 +1,19 @@
+h1{
+    color:white;
+}
+body{
+    background-image: url("jolteon.png");
+    color: white;
+}
+
+.nombre{
+    color:white;
+
+}
+.password{
+    color:white;
+}
+.submit{
+    color:white;
+    background-color: black;
+}

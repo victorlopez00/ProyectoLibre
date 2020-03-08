@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>PokeAPI</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>Inicio.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+	<!-- Definimos el servlet -->
+  <servlet>
+        <!-- Nombre que tiene que ser único para este servlet pero puede ser diferente al nombre de la "clase"-->
+    <servlet-name>Servlet</servlet-name>
+    
+    	<!--  Definimos a que clase identifica-->
+    <servlet-class>servlets.Servlet</servlet-class>
+  </servlet>
+  	<!--  Mapeamos el servlet a una URL -->
+  <servlet-mapping>
+  		<!-- Mismo nombre del servlet definido antes -->
+    <servlet-name>Servlet</servlet-name>
+    	<!-- URL con la que se accederá al servlet -->
+    <url-pattern>/Servlet</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
